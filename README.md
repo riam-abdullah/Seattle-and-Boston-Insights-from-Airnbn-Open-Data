@@ -1,19 +1,28 @@
-# Seattle-and-Boston-Insights-from-Airnbn-Open-Data
-## Used Libraries:
-pandas, numpy, seaborn and matplotlib.
+# Capstone Project: Create a Customer Segmentation Report for Arvato Financial Services
+In this project, I analyzed demographics data for customers of a mail-order sales company in Germany, comparing it against demographics information for the general population. I used unsupervised learning techniques to perform customer segmentation, identifying the parts of the population that best describe the core customer base of the company. Then, I used supervised machine learning techniques to predict which individuals are most likely to convert into becoming customers for the company.  Finally the results were summarized in a Medium blog post found here: https://medium.com/@riamyahya/customer-segmentation-for-arvato-financial-services-ceac3db47574?sk=e0dc366767747d47f1473ac73f940d96
 
-## The motivation for the project:
-This Project is a part from data scientist nanodegrees from Udaicty, that aim to creating a blog post and Github repository to begin building a data science portfolio of students. We will work in this datasets from Airbnb homes of Seattle and Boston, and exploring throughout this notebook the calendar and listings data homes of Seattle.
 
+## Project Motivation
+To practice and showcase unsupervised and supervised machine learning skills and complete the Udacity Data Science Nanodegree capstone project.
 
 ## File Descriptions
+**README.md** - This file, describing the contents of this repo
 
-There is 1 notebook available here to showcase work related to the above questions and 6 .csv files contains the data for Seattle and Boston.
+**.gitignore** - The gitignore file
 
-## Results
+**Arvato Project Workbook.ipynb** - Jupyter Notebook file containing project code
 
-The main findings of the code can be found at the post available here.
+**Arvato Project Workbook.html** - html file containing project code and approaches
 
-## Licensing, Authors, Acknowledgements
+**DIAS Information Levels - Attributes 2017.xlsx** and **DIAS Attributes - Values 2017.xlsx** - Excel files containing information on the features.
 
-Must give credit to Udacity courses for some of code ideas, and to kaggle/AirBnb for the data. You can find the Licensing for the data and other descriptive information at the Kaggle. Otherwise, feel free to use the code here as you would like!
+
+## Libraries Required
+The code was written in python 3 and requires the following packages: numpy, pandas, matplotlib, seaborn, pickle, time, sklearn collections, and operator.  
+
+## Summary of Results
+See GitHub repo and Medium blog post (https://medium.com/@riamyahya/customer-segmentation-for-arvato-financial-services-ceac3db47574?sk=e0dc366767747d47f1473ac73f940d96)
+
+## Licenses and Acknowledgements
+This project was completed as part of the Udacity Data Scientist Nanodegree.
+Arvato provided the data which cannot be publicly shared.
